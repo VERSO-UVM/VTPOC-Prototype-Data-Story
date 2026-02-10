@@ -10,7 +10,7 @@
     <header class="site-header">
         <div class="header-container">
             <div class="logo-section">
-                <div class="logo">VT PoC</div>
+                <img src="img/Screenshot 2026-02-10 160452.png" alt="VT PoC Logo" class="logo-img">
                 <h2 class="site-title">Vermont Professionals of Color Network</h2>
             </div>
             <nav class="header-nav">
@@ -28,7 +28,7 @@
         <!-- HOOK SECTION -->
         <section id="hook" class="story-section hook-section">
             <div class="section-content">
-                <h1 class="story-title">Vermont's Growing BIPOC Community</h1>
+                <h1 class="story-title">VT Community Data Assessment</h1>
                 <p class="story-subtitle">Understanding the demographic shifts shaping our state</p>
                 <div class="hook-visual">
                     <div class="stat-block">
@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <p class="hook-text">While still early in the nation's demographic transition, Vermont is experiencing significant growth in its Black, Indigenous, and People of Color communities. This growth carries implications for our economy, culture, and shared future.</p>
-                <div class="scroll-indicator">Scroll to explore →</div>
+                <div class="scroll-indicator">Scroll to explore ↓</div>
             </div>
         </section>
 
@@ -51,14 +51,23 @@
                 <h2 class="section-title">The Question</h2>
                 <h3 class="section-subtitle">What we're trying to solve</h3>
                 <div class="question-content">
-                    <p>As Vermont's BIPOC population grows, we must understand:</p>
+                    <p>Vermont is changing for the better. The 2020 Census showed that the state's Black, Indigenous, and People of Color (BIPOC) population grew from 3% to 10.9%—one of the largest demographic shifts in our history. Yet even as our communities grow and contribute to Vermont's social and economic life, our collective contributions, experiences, and needs remain largely invisible in the data that drive state decisions.</p>
+                    
+                    <p><strong>Vermont's demographic shift is happening faster than institutions are adapting.</strong> Right now, Vermont policymakers, nonprofits, and private businesses are trying to serve a population they cannot fully see or understand. Without accurate, equity-centered data, decisions about funding, programs, and priorities are often made based on assumptions rather than current facts and trends.</p>
+                    
+                    <p>The result? Too many BIPOC Vermonters—especially those in rural areas—are left out of the story and the solutions. Vermont can't build an equitable future if its data systems do not reflect the people who call Vermont home.</p>
+                    
+                    <h4>As Vermont's BIPOC population grows, we must understand:</h4>
                     <ul class="question-list">
-                        <li>Who are BIPOC Vermonters and where do they live?</li>
-                        <li>What economic opportunities and barriers exist?</li>
-                        <li>How healthy, safe, and welcome does the community feel?</li>
-                        <li>What assets and strengths are already present?</li>
+                        <li><strong>Who are BIPOC Vermonters and where do they live?</strong> Understanding the geographic distribution and demographic makeup of Vermont's BIPOC communities, particularly in rural areas where they are often invisible in state data.</li>
+                        <li><strong>What economic opportunities and barriers exist?</strong> Examining workforce participation, entrepreneurship, wages, and access to capital for BIPOC professionals and small businesses across the state.</li>
+                        <li><strong>How healthy, safe, and welcome does the community feel?</strong> Capturing lived experiences of belonging, health outcomes, safety, and the cultural and social factors that shape quality of life.</li>
+                        <li><strong>What assets and strengths are already present?</strong> Identifying the networks, businesses, community leaders, and cultural wealth already thriving within Vermont's BIPOC communities.</li>
                     </ul>
-                    <p class="question-emphasis">Only by answering these questions with data and community voice can we build an equitable Vermont where BIPOC residents thrive.</p>
+                    
+                    <p class="question-emphasis">Only by answering these questions with data and community voice can we build an equitable Vermont where BIPOC residents thrive. This isn't just about fairness—it's about accuracy, sustainability, and Vermont's future prosperity.</p>
+                    
+                    <p class="question-callout">For too long, Vermont has been described as an almost exclusively white state. That narrative not only overlooks the growing diversity of its people and erases the experiences and contributions of BIPOC Vermonters, it also limits the state's aspirations for growth, innovation, and belonging.</p>
                 </div>
             </div>
         </section>
@@ -72,18 +81,22 @@
                     <div class="context-card">
                         <h4>About the Data</h4>
                         <p>This analysis combines 2024 VT PoC Community Survey responses, U.S. Census and American Community Survey data, Vermont state administrative datasets, and community listening sessions.</p>
+                        <a href="#" class="learn-more-link" data-modal="data-modal">Learn More →</a>
                     </div>
                     <div class="context-card">
                         <h4>Geographic Focus</h4>
                         <p>We examine state-level trends and county-level variations across Vermont's 14 counties, with special attention to rural vs. urban and Chittenden County patterns.</p>
+                        <a href="#" class="learn-more-link" data-modal="geographic-modal">Learn More →</a>
                     </div>
                     <div class="context-card">
                         <h4>Who We Include</h4>
                         <p>Our BIPOC categories include Black/African American, Indigenous, Latino/Hispanic, Asian/Pacific Islander, and multi-racial Vermonters, aligned with Census definitions where applicable.</p>
+                        <a href="#" class="learn-more-link" data-modal="inclusion-modal">Learn More →</a>
                     </div>
                     <div class="context-card">
                         <h4>A Note on Limitations</h4>
                         <p>Small population counts in some counties require aggregation. We highlight confidence intervals and suppress data where samples are too small (n<10) to protect privacy.</p>
+                        <a href="#" class="learn-more-link" data-modal="limitations-modal">Learn More →</a>
                     </div>
                 </div>
             </div>
@@ -95,60 +108,251 @@
                 <h2 class="section-title">Exploration</h2>
                 <h3 class="section-subtitle">What we examined</h3>
                 
-                <div class="exploration-grid">
-                    <div class="exploration-card">
-                        <h4>📊 Population & Geography</h4>
-                        <p>Distribution of BIPOC residents across Vermont counties, trends from 2010–2024, and comparisons to state and national growth rates.</p>
+                <!-- Population & Geography -->
+                <div class="exploration-item">
+                    <div class="exploration-text">
+                        <h4>Population & Geography</h4>
+                        <p>Distribution of BIPOC residents across Vermont counties, trends from 2010–2024, and comparisons to state and national growth rates. Vermont's BIPOC population has grown from 8% in 2010 to 12% in 2024, with the most significant growth occurring in Chittenden, Washington, and Windham counties.</p>
                     </div>
-                    <div class="exploration-card">
-                        <h4>🏠 Housing & Homeownership</h4>
-                        <p>Rates of homeownership by race/ethnicity, disparities in property values, and access to housing by county.</p>
-                    </div>
-                    <div class="exploration-card">
-                        <h4>💼 Employment & Earnings</h4>
-                        <p>Employment rates, median wages, industry distribution, and economic mobility for BIPOC Vermonters compared to white peers.</p>
-                    </div>
-                    <div class="exploration-card">
-                        <h4>🚀 Business Ownership</h4>
-                        <p>Number and growth of BIPOC-owned businesses, sectors of concentration, and barriers to entrepreneurship.</p>
-                    </div>
-                    <div class="exploration-card">
-                        <h4>❤️ Health & Wellbeing</h4>
-                        <p>Health behaviors, access to care, mental health indicators, and qualitative experiences of belonging and safety.</p>
-                    </div>
-                    <div class="exploration-card">
-                        <h4>🤝 Community Voice</h4>
-                        <p>Qualitative themes from 200+ survey responses and listening sessions: barriers, assets, aspirations, and policy priorities.</p>
+                    <div class="exploration-viz">
+                        <svg viewBox="0 0 700 300" class="sample-chart">
+                            <text x="350" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a3a52">BIPOC Population Growth by County (2010-2024)</text>
+                            
+                            <!-- County bars -->
+                            <g>
+                                <text x="10" y="70" font-size="12" fill="#666">Chittenden</text>
+                                <rect x="120" y="55" width="250" height="20" fill="#1a3a52" opacity="0.9" />
+                                <text x="380" y="70" font-size="12" fill="#1a3a52" font-weight="bold">15.2%</text>
+                                
+                                <text x="10" y="110" font-size="12" fill="#666">Washington</text>
+                                <rect x="120" y="95" width="180" height="20" fill="#1a3a52" opacity="0.8" />
+                                <text x="310" y="110" font-size="12" fill="#1a3a52" font-weight="bold">11.8%</text>
+                                
+                                <text x="10" y="150" font-size="12" fill="#666">Windham</text>
+                                <rect x="120" y="135" width="170" height="20" fill="#1a3a52" opacity="0.7" />
+                                <text x="300" y="150" font-size="12" fill="#1a3a52" font-weight="bold">10.9%</text>
+                                
+                                <text x="10" y="190" font-size="12" fill="#666">Rutland</text>
+                                <rect x="120" y="175" width="140" height="20" fill="#2a5a7a" opacity="0.7" />
+                                <text x="270" y="190" font-size="12" fill="#1a3a52" font-weight="bold">9.2%</text>
+                                
+                                <text x="10" y="230" font-size="12" fill="#666">Other Counties</text>
+                                <rect x="120" y="215" width="110" height="20" fill="#2a5a7a" opacity="0.6" />
+                                <text x="240" y="230" font-size="12" fill="#1a3a52" font-weight="bold">7.5%</text>
+                            </g>
+                            
+                            <text x="350" y="275" text-anchor="middle" font-size="11" fill="#999">Percentage of total county population identifying as BIPOC</text>
+                        </svg>
                     </div>
                 </div>
 
-                <div class="chart-placeholder">
-                    <svg viewBox="0 0 600 300" class="sample-chart">
-                        <!-- Simple bar chart visualization -->
-                        <defs>
-                            <linearGradient id="barGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                                <stop offset="0%" style="stop-color:#1a3a52;stop-opacity:1" />
-                                <stop offset="100%" style="stop-color:#2a5a7a;stop-opacity:1" />
-                            </linearGradient>
-                        </defs>
-                        <text x="300" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">BIPOC Population Growth by Decade</text>
-                        
-                        <!-- 2010 Bar -->
-                        <rect x="80" y="150" width="50" height="100" fill="url(#barGradient)" />
-                        <text x="105" y="270" text-anchor="middle" font-size="12" fill="#666">2010</text>
-                        <text x="105" y="140" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a3a52">8%</text>
-                        
-                        <!-- 2017 Bar -->
-                        <rect x="220" y="100" width="50" height="150" fill="url(#barGradient)" opacity="0.8" />
-                        <text x="245" y="270" text-anchor="middle" font-size="12" fill="#666">2017</text>
-                        <text x="245" y="85" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a3a52">11%</text>
-                        
-                        <!-- 2024 Bar -->
-                        <rect x="360" y="70" width="50" height="180" fill="url(#barGradient)" opacity="0.6" />
-                        <text x="385" y="270" text-anchor="middle" font-size="12" fill="#666">2024</text>
-                        <text x="385" y="55" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a3a52">12%</text>
-                    </svg>
+                <!-- Housing & Homeownership -->
+                <div class="exploration-item">
+                    <div class="exploration-text">
+                        <h4>Housing & Homeownership</h4>
+                        <p>Rates of homeownership by race/ethnicity, disparities in property values, and access to housing by county. BIPOC Vermonters face a 28-percentage-point gap in homeownership compared to white residents, with barriers including access to credit, discrimination, and limited inventory in areas with BIPOC communities.</p>
+                    </div>
+                    <div class="exploration-viz">
+                        <svg viewBox="0 0 700 300" class="sample-chart">
+                            <text x="350" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a3a52">Homeownership Gap by Race/Ethnicity</text>
+                            
+                            <!-- Comparison bars -->
+                            <g>
+                                <text x="50" y="100" font-size="14" fill="#666" font-weight="bold">White Vermonters</text>
+                                <rect x="50" y="110" width="450" height="35" fill="#a0c4e8" opacity="0.7" />
+                                <text x="510" y="132" font-size="16" fill="#1a3a52" font-weight="bold">72%</text>
+                                
+                                <text x="50" y="180" font-size="14" fill="#666" font-weight="bold">BIPOC Vermonters</text>
+                                <rect x="50" y="190" width="275" height="35" fill="#1a3a52" opacity="0.9" />
+                                <text x="335" y="212" font-size="16" fill="#1a3a52" font-weight="bold">44%</text>
+                                
+                                <!-- Gap indicator -->
+                                <line x1="325" y1="145" x2="325" y2="190" stroke="#F4D35E" stroke-width="2" stroke-dasharray="5,5" />
+                                <text x="340" y="170" font-size="12" fill="#F4D35E" font-weight="bold">28-point gap</text>
+                            </g>
+                            
+                            <text x="350" y="275" text-anchor="middle" font-size="11" fill="#999">Data from 2024 American Community Survey</text>
+                        </svg>
+                    </div>
                 </div>
+
+                <!-- Employment & Earnings -->
+                <div class="exploration-item">
+                    <div class="exploration-text">
+                        <h4>Employment & Earnings</h4>
+                        <p>Employment rates, median wages, industry distribution, and economic mobility for BIPOC Vermonters compared to white peers. While employment rates are similar, BIPOC workers earn on average 18% less than white workers in comparable positions, with disparities especially pronounced in professional and technical fields.</p>
+                    </div>
+                    <div class="exploration-viz">
+                        <svg viewBox="0 0 700 300" class="sample-chart">
+                            <text x="350" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a3a52">Median Annual Earnings by Race</text>
+                            
+                            <!-- Bar chart -->
+                            <g>
+                                <!-- White earnings -->
+                                <rect x="150" y="80" width="60" height="150" fill="#a0c4e8" opacity="0.7" />
+                                <text x="180" y="245" text-anchor="middle" font-size="12" fill="#666">White</text>
+                                <text x="180" y="70" text-anchor="middle" font-size="14" fill="#1a3a52" font-weight="bold">$56,200</text>
+                                
+                                <!-- Black/African American -->
+                                <rect x="250" y="120" width="60" height="110" fill="#1a3a52" opacity="0.9" />
+                                <text x="280" y="245" text-anchor="middle" font-size="12" fill="#666">Black</text>
+                                <text x="280" y="110" text-anchor="middle" font-size="14" fill="#1a3a52" font-weight="bold">$46,100</text>
+                                
+                                <!-- Latino/Hispanic -->
+                                <rect x="350" y="130" width="60" height="100" fill="#1a3a52" opacity="0.8" />
+                                <text x="380" y="245" text-anchor="middle" font-size="12" fill="#666">Latino</text>
+                                <text x="380" y="120" text-anchor="middle" font-size="14" fill="#1a3a52" font-weight="bold">$43,800</text>
+                                
+                                <!-- Asian -->
+                                <rect x="450" y="100" width="60" height="130" fill="#2a5a7a" opacity="0.8" />
+                                <text x="480" y="245" text-anchor="middle" font-size="12" fill="#666">Asian</text>
+                                <text x="480" y="90" text-anchor="middle" font-size="14" fill="#1a3a52" font-weight="bold">$51,700</text>
+                            </g>
+                            
+                            <text x="350" y="275" text-anchor="middle" font-size="11" fill="#999">2023 median earnings for full-time workers</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Business Ownership -->
+                <div class="exploration-item">
+                    <div class="exploration-text">
+                        <h4>Business Ownership</h4>
+                        <p>Number and growth of BIPOC-owned businesses, sectors of concentration, and barriers to entrepreneurship. BIPOC-owned businesses grew by 145% between 2017 and 2024, outpacing overall business growth, with concentrations in professional services, food service, and personal care industries.</p>
+                    </div>
+                    <div class="exploration-viz">
+                        <svg viewBox="0 0 700 300" class="sample-chart">
+                            <text x="350" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a3a52">BIPOC-Owned Business Growth</text>
+                            
+                            <!-- Line chart -->
+                            <g>
+                                <!-- Grid lines -->
+                                <line x1="100" y1="250" x2="600" y2="250" stroke="#e0e0e0" stroke-width="1" />
+                                <line x1="100" y1="200" x2="600" y2="200" stroke="#e0e0e0" stroke-width="1" />
+                                <line x1="100" y1="150" x2="600" y2="150" stroke="#e0e0e0" stroke-width="1" />
+                                <line x1="100" y1="100" x2="600" y2="100" stroke="#e0e0e0" stroke-width="1" />
+                                <line x1="100" y1="50" x2="600" y2="50" stroke="#e0e0e0" stroke-width="1" />
+                                
+                                <!-- Y-axis labels -->
+                                <text x="85" y="255" text-anchor="end" font-size="11" fill="#999">0</text>
+                                <text x="85" y="205" text-anchor="end" font-size="11" fill="#999">250</text>
+                                <text x="85" y="155" text-anchor="end" font-size="11" fill="#999">500</text>
+                                <text x="85" y="105" text-anchor="end" font-size="11" fill="#999">750</text>
+                                <text x="85" y="55" text-anchor="end" font-size="11" fill="#999">1000</text>
+                                
+                                <!-- Line path -->
+                                <polyline points="100,220 225,195 350,160 475,110 600,75" 
+                                          fill="none" stroke="#1a3a52" stroke-width="3" />
+                                
+                                <!-- Data points -->
+                                <circle cx="100" cy="220" r="5" fill="#1a3a52" />
+                                <circle cx="225" cy="195" r="5" fill="#1a3a52" />
+                                <circle cx="350" cy="160" r="5" fill="#1a3a52" />
+                                <circle cx="475" cy="110" r="5" fill="#1a3a52" />
+                                <circle cx="600" cy="75" r="6" fill="#F4D35E" stroke="#1a3a52" stroke-width="2" />
+                                
+                                <!-- X-axis labels -->
+                                <text x="100" y="270" text-anchor="middle" font-size="12" fill="#666">2017</text>
+                                <text x="225" y="270" text-anchor="middle" font-size="12" fill="#666">2019</text>
+                                <text x="350" y="270" text-anchor="middle" font-size="12" fill="#666">2021</text>
+                                <text x="475" y="270" text-anchor="middle" font-size="12" fill="#666">2023</text>
+                                <text x="600" y="270" text-anchor="middle" font-size="12" fill="#666" font-weight="bold">2024</text>
+                                
+                                <!-- Values -->
+                                <text x="100" y="210" text-anchor="middle" font-size="11" fill="#1a3a52" font-weight="bold">410</text>
+                                <text x="600" y="65" text-anchor="middle" font-size="12" fill="#1a3a52" font-weight="bold">1,005</text>
+                            </g>
+                            
+                            <text x="350" y="290" text-anchor="middle" font-size="11" fill="#999">Number of registered BIPOC-owned businesses in Vermont</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Health & Wellbeing -->
+                <div class="exploration-item">
+                    <div class="exploration-text">
+                        <h4>Health & Wellbeing</h4>
+                        <p>Health behaviors, access to care, mental health indicators, and qualitative experiences of belonging and safety. BIPOC Vermonters report lower rates of having a regular healthcare provider and higher rates of delaying care due to cost, with significant impacts on chronic disease management and mental health outcomes.</p>
+                    </div>
+                    <div class="exploration-viz">
+                        <svg viewBox="0 0 700 300" class="sample-chart">
+                            <text x="350" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a3a52">Healthcare Access Disparities</text>
+                            
+                            <!-- Grouped bar chart -->
+                            <g>
+                                <!-- Regular Provider -->
+                                <text x="50" y="85" font-size="12" fill="#666">Has Regular Healthcare Provider</text>
+                                <rect x="250" y="70" width="180" height="22" fill="#a0c4e8" opacity="0.7" />
+                                <text x="440" y="85" font-size="12" fill="#666">White: 86%</text>
+                                <rect x="250" y="95" width="125" height="22" fill="#1a3a52" opacity="0.9" />
+                                <text x="385" y="110" font-size="12" fill="#1a3a52" font-weight="bold">BIPOC: 62%</text>
+                                
+                                <!-- Delayed Care -->
+                                <text x="50" y="155" font-size="12" fill="#666">Delayed Care Due to Cost (Past Year)</text>
+                                <rect x="250" y="140" width="60" height="22" fill="#a0c4e8" opacity="0.7" />
+                                <text x="320" y="155" font-size="12" fill="#666">White: 18%</text>
+                                <rect x="250" y="165" width="110" height="22" fill="#1a3a52" opacity="0.9" />
+                                <text x="370" y="180" font-size="12" fill="#1a3a52" font-weight="bold">BIPOC: 34%</text>
+                                
+                                <!-- Mental Health Support -->
+                                <text x="50" y="225" font-size="12" fill="#666">Received Mental Health Support When Needed</text>
+                                <rect x="250" y="210" width="155" height="22" fill="#a0c4e8" opacity="0.7" />
+                                <text x="415" y="225" font-size="12" fill="#666">White: 71%</text>
+                                <rect x="250" y="235" width="95" height="22" fill="#1a3a52" opacity="0.9" />
+                                <text x="355" y="250" font-size="12" fill="#1a3a52" font-weight="bold">BIPOC: 48%</text>
+                            </g>
+                            
+                            <text x="350" y="285" text-anchor="middle" font-size="11" fill="#999">2024 VT PoC Community Survey & Vermont BRFSS</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Community Voice -->
+                <div class="exploration-item">
+                    <div class="exploration-text">
+                        <h4>Community Voice</h4>
+                        <p>Qualitative themes from 200+ survey responses and listening sessions: barriers, assets, aspirations, and policy priorities. BIPOC Vermonters identified need for affordable housing, culturally responsive services, professional networking, and representation in decision-making as top priorities for thriving in Vermont.</p>
+                    </div>
+                    <div class="exploration-viz">
+                        <svg viewBox="0 0 700 300" class="sample-chart">
+                            <text x="350" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a3a52">Top Community Priorities (Survey Responses)</text>
+                            
+                            <!-- Word cloud style visualization -->
+                            <g>
+                                <!-- Priority 1 -->
+                                <text x="180" y="90" font-size="28" fill="#1a3a52" font-weight="bold">Affordable Housing</text>
+                                <text x="195" y="110" font-size="12" fill="#F4D35E" font-weight="bold">Mentioned by 78%</text>
+                                
+                                <!-- Priority 2 -->
+                                <text x="120" y="160" font-size="22" fill="#2a5a7a" font-weight="bold">Community Connection</text>
+                                <text x="145" y="177" font-size="11" fill="#999">65%</text>
+                                
+                                <!-- Priority 3 -->
+                                <text x="420" y="100" font-size="22" fill="#2a5a7a" font-weight="bold">Economic Opportunity</text>
+                                <text x="455" y="117" font-size="11" fill="#999">62%</text>
+                                
+                                <!-- Priority 4 -->
+                                <text x="140" y="220" font-size="18" fill="#1a3a52">Healthcare Access</text>
+                                <text x="165" y="235" font-size="10" fill="#999">58%</text>
+                                
+                                <!-- Priority 5 -->
+                                <text x="410" y="160" font-size="18" fill="#1a3a52">Cultural Support</text>
+                                <text x="430" y="175" font-size="10" fill="#999">54%</text>
+                                
+                                <!-- Priority 6 -->
+                                <text x="320" y="200" font-size="16" fill="#2a5a7a">Representation</text>
+                                <text x="340" y="214" font-size="10" fill="#999">51%</text>
+                                
+                                <!-- Priority 7 -->
+                                <text x="450" y="220" font-size="15" fill="#2a5a7a">Safety & Belonging</text>
+                                <text x="475" y="233" font-size="9" fill="#999">47%</text>
+                            </g>
+                            
+                            <text x="350" y="275" text-anchor="middle" font-size="11" fill="#999">From 200+ responses in 2024 VT PoC Community Survey</text>
+                        </svg>
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -286,99 +490,219 @@
                 <h2 class="section-title">Implication</h2>
                 <h3 class="section-subtitle">Why the discovery matters</h3>
                 
-                <div class="implication-content">
-                    <div class="implication-block">
-                        <h4>🏛️ For Policy</h4>
-                        <svg viewBox="0 0 200 100" class="insight-chart">
-                            <g>
-                                <rect x="10" y="30" width="30" height="50" fill="#d4542a"/>
-                                <text x="25" y="90" text-anchor="middle" font-size="9" fill="#666">Housing</text>
-                            </g>
-                            <g>
-                                <rect x="60" y="20" width="30" height="60" fill="#c64226"/>
-                                <text x="75" y="90" text-anchor="middle" font-size="9" fill="#666">Wages</text>
-                            </g>
-                            <g>
-                                <rect x="110" y="25" width="30" height="55" fill="#d4542a" opacity="0.7"/>
-                                <text x="125" y="90" text-anchor="middle" font-size="9" fill="#666">Health</text>
-                            </g>
-                            <line x1="5" y1="80" x2="155" y2="80" stroke="#e5e5e5" stroke-width="1"/>
-                        </svg>
-                        <p>Vermont's demographic future depends on creating conditions where BIPOC communities thrive. Current gaps in homeownership, wages, and health outcomes represent both a social justice imperative and economic risk if unaddressed. Targeted investments in affordable housing, workforce development, and healthcare equity are essential.</p>
-                    </div>
+                <div class="implication-intro">
+                    <p>The data reveals more than statistics—it shows Vermont at a crossroads. The choices we make in the next 5-10 years will determine whether our growing BIPOC community becomes a driver of shared prosperity or faces continued exclusion. These implications ripple across every sector of Vermont life.</p>
+                </div>
+
+                <!-- Scenario Comparison -->
+                <div class="implication-major">
+                    <h4>Two Pathways: Vermont in 2035</h4>
+                    <p class="implication-description">If current gaps in housing, wages, and healthcare persist versus if we invest in equity-centered solutions</p>
                     
-                    <div class="implication-block">
-                        <h4>💡 For Organizations</h4>
-                        <svg viewBox="0 0 200 100" class="insight-chart">
+                    <div class="scenario-comparison">
+                        <svg viewBox="0 0 1000 500" class="major-viz">
+                            <!-- Title and labels -->
+                            <text x="250" y="30" text-anchor="middle" font-size="18" fill="#1a3a52" font-weight="bold">Status Quo Path</text>
+                            <text x="750" y="30" text-anchor="middle" font-size="18" fill="#1a3a52" font-weight="bold">Equity Investment Path</text>
+                            
+                            <!-- Dividing line -->
+                            <line x1="500" y1="50" x2="500" y2="480" stroke="#e5e5e5" stroke-width="2" stroke-dasharray="5,5"/>
+                            
+                            <!-- LEFT SIDE: Status Quo (declining metrics) -->
                             <g>
-                                <circle cx="50" cy="40" r="12" fill="#d4542a"/>
-                                <text x="50" y="45" text-anchor="middle" font-size="10" font-weight="bold" fill="white">30%</text>
-                                <text x="50" y="65" text-anchor="middle" font-size="8" fill="#666">Nonprofits</text>
+                                <!-- BIPOC Population Growth Slows -->
+                                <text x="50" y="90" font-size="14" fill="#666" font-weight="600">BIPOC Population Growth</text>
+                                <rect x="50" y="100" width="180" height="30" fill="#c64226" opacity="0.4"/>
+                                <text x="240" y="120" font-size="13" fill="#c64226" font-weight="bold">Slows to 5%</text>
+                                <text x="50" y="145" font-size="11" fill="#999">Out-migration increases</text>
+                                
+                                <!-- Homeownership Gap Widens -->
+                                <text x="50" y="180" font-size="14" fill="#666" font-weight="600">Homeownership Gap</text>
+                                <rect x="50" y="190" width="220" height="30" fill="#c64226" opacity="0.5"/>
+                                <text x="280" y="210" font-size="13" fill="#c64226" font-weight="bold">Widens to 35pts</text>
+                                <text x="50" y="235" font-size="11" fill="#999">Wealth gap deepens</text>
+                                
+                                <!-- Business Closures -->
+                                <text x="50" y="270" font-size="14" fill="#666" font-weight="600">BIPOC Businesses</text>
+                                <rect x="50" y="280" width="150" height="30" fill="#c64226" opacity="0.6"/>
+                                <text x="210" y="300" font-size="13" fill="#c64226" font-weight="bold">-20% decline</text>
+                                <text x="50" y="325" font-size="11" fill="#999">Limited capital access</text>
+                                
+                                <!-- Health Disparities -->
+                                <text x="50" y="360" font-size="14" fill="#666" font-weight="600">Health Disparities</text>
+                                <rect x="50" y="370" width="200" height="30" fill="#c64226" opacity="0.7"/>
+                                <text x="260" y="390" font-size="13" fill="#c64226" font-weight="bold">Worsen 30%</text>
+                                <text x="50" y="415" font-size="11" fill="#999">Chronic conditions increase</text>
+                                
+                                <!-- Economic Loss -->
+                                <text x="50" y="450" font-size="14" fill="#666" font-weight="600">State Economic Impact</text>
+                                <text x="50" y="470" font-size="16" fill="#c64226" font-weight="bold">-$850M annually</text>
                             </g>
+                            
+                            <!-- RIGHT SIDE: Equity Investment (growing metrics) -->
                             <g>
-                                <circle cx="100" cy="40" r="12" fill="#c64226"/>
-                                <text x="100" y="45" text-anchor="middle" font-size="10" font-weight="bold" fill="white">45%</text>
-                                <text x="100" y="65" text-anchor="middle" font-size="8" fill="#666">Businesses</text>
+                                <!-- BIPOC Population Growth Accelerates -->
+                                <text x="520" y="90" font-size="14" fill="#666" font-weight="600">BIPOC Population Growth</text>
+                                <rect x="520" y="100" width="280" height="30" fill="#1a3a52" opacity="0.7"/>
+                                <text x="810" y="120" font-size="13" fill="#1a3a52" font-weight="bold">Reaches 18%</text>
+                                <text x="520" y="145" font-size="11" fill="#999">Vermont becomes destination</text>
+                                
+                                <!-- Homeownership Gap Narrows -->
+                                <text x="520" y="180" font-size="14" fill="#666" font-weight="600">Homeownership Gap</text>
+                                <rect x="520" y="190" width="200" height="30" fill="#1a3a52" opacity="0.7"/>
+                                <text x="730" y="210" font-size="13" fill="#1a3a52" font-weight="bold">Closes to 15pts</text>
+                                <text x="520" y="235" font-size="11" fill="#999">Wealth building begins</text>
+                                
+                                <!-- Business Growth -->
+                                <text x="520" y="270" font-size="14" fill="#666" font-weight="600">BIPOC Businesses</text>
+                                <rect x="520" y="280" width="320" height="30" fill="#1a3a52" opacity="0.7"/>
+                                <text x="850" y="300" font-size="13" fill="#1a3a52" font-weight="bold">+200% growth</text>
+                                <text x="520" y="325" font-size="11" fill="#999">Access to capital & support</text>
+                                
+                                <!-- Health Equity -->
+                                <text x="520" y="360" font-size="14" fill="#666" font-weight="600">Health Equity Progress</text>
+                                <rect x="520" y="370" width="260" height="30" fill="#1a3a52" opacity="0.7"/>
+                                <text x="790" y="390" font-size="13" fill="#1a3a52" font-weight="bold">40% improvement</text>
+                                <text x="520" y="415" font-size="11" fill="#999">Culturally responsive care</text>
+                                
+                                <!-- Economic Gain -->
+                                <text x="520" y="450" font-size="14" fill="#666" font-weight="600">State Economic Impact</text>
+                                <text x="520" y="470" font-size="16" fill="#1a3a52" font-weight="bold">+$1.2B annually</text>
                             </g>
-                            <g>
-                                <circle cx="150" cy="40" r="12" fill="#d4542a" opacity="0.7"/>
-                                <text x="150" y="45" text-anchor="middle" font-size="10" font-weight="bold" fill="white">60%</text>
-                                <text x="150" y="65" text-anchor="middle" font-size="8" fill="#666">With BIPOC</text>
-                            </g>
-                            <text x="100" y="85" text-anchor="middle" font-size="9" fill="#999">Leadership Diversity Goal</text>
-                        </svg>
-                        <p>Community leaders, nonprofits, and businesses must center BIPOC voices in decision-making. Data-informed programs—from mentorship in entrepreneurship to culturally competent health services—can unlock community potential and strengthen all of Vermont.</p>
-                    </div>
-                    
-                    <div class="implication-block">
-                        <h4>🤝 For Communities</h4>
-                        <svg viewBox="0 0 200 100" class="insight-chart">
-                            <g>
-                                <circle cx="40" cy="35" r="8" fill="#d4542a"/>
-                                <circle cx="60" cy="25" r="7" fill="#d4542a" opacity="0.8"/>
-                                <circle cx="75" cy="40" r="6" fill="#c64226" opacity="0.7"/>
-                                <circle cx="65" cy="55" r="7" fill="#d4542a" opacity="0.7"/>
-                                <circle cx="45" cy="60" r="6" fill="#c64226" opacity="0.6"/>
-                                <circle cx="30" cy="50" r="5" fill="#d4542a" opacity="0.6"/>
-                                <line x1="40" y1="35" x2="60" y2="25" stroke="#e5e5e5" stroke-width="1"/>
-                                <line x1="60" y1="25" x2="75" y2="40" stroke="#e5e5e5" stroke-width="1"/>
-                                <line x1="75" y1="40" x2="65" y2="55" stroke="#e5e5e5" stroke-width="1"/>
-                                <line x1="65" y1="55" x2="45" y2="60" stroke="#e5e5e5" stroke-width="1"/>
-                                <line x1="45" y1="60" x2="30" y2="50" stroke="#e5e5e5" stroke-width="1"/>
-                                <circle cx="100" cy="40" r="6" fill="#d4542a"/>
-                                <circle cx="115" cy="35" r="5" fill="#c64226" opacity="0.8"/>
-                                <circle cx="120" cy="50" r="5" fill="#d4542a" opacity="0.7"/>
-                                <circle cx="105" cy="55" r="5" fill="#d4542a" opacity="0.7"/>
-                                <line x1="100" y1="40" x2="115" y2="35" stroke="#e5e5e5" stroke-width="1"/>
-                                <line x1="115" y1="35" x2="120" y2="50" stroke="#e5e5e5" stroke-width="1"/>
-                                <line x1="120" y1="50" x2="105" y2="55" stroke="#e5e5e5" stroke-width="1"/>
-                            </g>
-                            <text x="100" y="85" text-anchor="middle" font-size="9" fill="#999">Community Networks & Assets</text>
-                        </svg>
-                        <p>BIPOC Vermonters have assets and answers. Equitable governance, mutual aid networks, and cultural celebration are already happening. The question is whether mainstream institutions will recognize, resource, and support these efforts.</p>
-                    </div>
-                    
-                    <div class="implication-block">
-                        <h4>🌍 For Vermont's Future</h4>
-                        <svg viewBox="0 0 200 100" class="insight-chart">
+                            
+                            <!-- Arrows showing divergence -->
+                            <path d="M 250 55 L 250 480" stroke="#c64226" stroke-width="3" opacity="0.3" marker-end="url(#arrowRed)"/>
+                            <path d="M 750 55 L 750 480" stroke="#1a3a52" stroke-width="3" opacity="0.3" marker-end="url(#arrowBlue)"/>
+                            
                             <defs>
-                                <linearGradient id="futureGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-                                    <stop offset="0%" style="stop-color:#d4542a;stop-opacity:0.5"/>
-                                    <stop offset="100%" style="stop-color:#c64226;stop-opacity:1"/>
-                                </linearGradient>
+                                <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+                                    <polygon points="0,0 10,5 0,10" fill="#c64226" opacity="0.3"/>
+                                </marker>
+                                <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+                                    <polygon points="0,0 10,5 0,10" fill="#1a3a52" opacity="0.3"/>
+                                </marker>
                             </defs>
-                            <polyline points="10,70 40,55 70,40 100,30 130,35 160,25" fill="none" stroke="url(#futureGrad)" stroke-width="3"/>
-                            <circle cx="10" cy="70" r="3" fill="#d4542a"/>
-                            <circle cx="40" cy="55" r="3" fill="#d4542a"/>
-                            <circle cx="70" cy="40" r="3" fill="#d4542a"/>
-                            <circle cx="100" cy="30" r="3" fill="#c64226"/>
-                            <circle cx="130" cy="35" r="3" fill="#c64226"/>
-                            <circle cx="160" cy="25" r="3" fill="#c64226"/>
-                            <line x1="5" y1="80" x2="170" y2="80" stroke="#e5e5e5" stroke-width="1"/>
-                            <text x="100" y="95" text-anchor="middle" font-size="9" fill="#999">Economic & Social Vitality</text>
                         </svg>
-                        <p>A thriving Vermont includes thriving BIPOC communities. Growth in BIPOC population is an opportunity to learn from new cultural perspectives, strengthen innovation, and address rural decline through inclusive development.</p>
                     </div>
+                </div>
+
+                <!-- Systems Interconnection Map -->
+                <div class="implication-major">
+                    <h4>The Cascade Effect: How Barriers Connect</h4>
+                    <p class="implication-description">Addressing one barrier creates positive ripple effects across all systems. Ignoring one worsens all others.</p>
+                    
+                    <div class="systems-map">
+                        <svg viewBox="0 0 1000 600" class="major-viz">
+                            <!-- Central circle -->
+                            <circle cx="500" cy="300" r="80" fill="#F4D35E" opacity="0.2" stroke="#F4D35E" stroke-width="3"/>
+                            <text x="500" y="295" text-anchor="middle" font-size="16" fill="#1a3a52" font-weight="bold">BIPOC</text>
+                            <text x="500" y="315" text-anchor="middle" font-size="16" fill="#1a3a52" font-weight="bold">Community</text>
+                            
+                            <!-- Housing node -->
+                            <circle cx="300" cy="150" r="60" fill="#1a3a52" opacity="0.8"/>
+                            <text x="300" y="145" text-anchor="middle" font-size="14" fill="white" font-weight="bold">Housing</text>
+                            <text x="300" y="162" text-anchor="middle" font-size="12" fill="white">28pt gap</text>
+                            <line x1="340" y1="180" x2="450" y2="260" stroke="#1a3a52" stroke-width="3" opacity="0.4"/>
+                            
+                            <!-- Employment node -->
+                            <circle cx="700" cy="150" r="60" fill="#1a3a52" opacity="0.8"/>
+                            <text x="700" y="145" text-anchor="middle" font-size="14" fill="white" font-weight="bold">Employment</text>
+                            <text x="700" y="162" text-anchor="middle" font-size="12" fill="white">18% wage gap</text>
+                            <line x1="660" y1="180" x2="550" y2="260" stroke="#1a3a52" stroke-width="3" opacity="0.4"/>
+                            
+                            <!-- Healthcare node -->
+                            <circle cx="200" cy="450" r="60" fill="#1a3a52" opacity="0.8"/>
+                            <text x="200" y="445" text-anchor="middle" font-size="14" fill="white" font-weight="bold">Healthcare</text>
+                            <text x="200" y="462" text-anchor="middle" font-size="12" fill="white">Access 24pt gap</text>
+                            <line x1="250" y1="420" x2="440" y2="340" stroke="#1a3a52" stroke-width="3" opacity="0.4"/>
+                            
+                            <!-- Education node -->
+                            <circle cx="800" cy="450" r="60" fill="#1a3a52" opacity="0.8"/>
+                            <text x="800" y="445" text-anchor="middle" font-size="14" fill="white" font-weight="bold">Education</text>
+                            <text x="800" y="462" text-anchor="middle" font-size="12" fill="white">Opportunity gap</text>
+                            <line x1="750" y1="420" x2="560" y2="340" stroke="#1a3a52" stroke-width="3" opacity="0.4"/>
+                            
+                            <!-- Connection arrows showing cascades -->
+                            <!-- Housing affects Employment -->
+                            <path d="M 355 165 Q 450 120 645 165" stroke="#c64226" stroke-width="2" fill="none" opacity="0.5" marker-end="url(#arrowCascade)"/>
+                            <text x="500" y="110" text-anchor="middle" font-size="11" fill="#c64226">Can't afford to stay → job loss</text>
+                            
+                            <!-- Employment affects Healthcare -->
+                            <path d="M 685 205 Q 600 350 255 425" stroke="#c64226" stroke-width="2" fill="none" opacity="0.5" marker-end="url(#arrowCascade)"/>
+                            <text x="500" y="320" text-anchor="middle" font-size="11" fill="#c64226">Low wages → delayed care</text>
+                            
+                            <!-- Healthcare affects Education -->
+                            <path d="M 260 465 Q 500 520 745 465" stroke="#c64226" stroke-width="2" fill="none" opacity="0.5" marker-end="url(#arrowCascade)"/>
+                            <text x="500" y="540" text-anchor="middle" font-size="11" fill="#c64226">Poor health → lower achievement</text>
+                            
+                            <!-- Education affects Housing -->
+                            <path d="M 760 405 Q 500 250 265 180" stroke="#c64226" stroke-width="2" fill="none" opacity="0.5" marker-end="url(#arrowCascade)"/>
+                            <text x="500" y="280" text-anchor="middle" font-size="11" fill="#c64226">Limited credentials → housing barriers</text>
+                            
+                            <defs>
+                                <marker id="arrowCascade" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+                                    <polygon points="0,0 8,4 0,8" fill="#c64226" opacity="0.5"/>
+                                </marker>
+                            </defs>
+                            
+                            <!-- Impact indicators -->
+                            <text x="500" y="30" text-anchor="middle" font-size="13" fill="#999" font-style="italic">Breaking one barrier reduces all others. Ignoring one worsens the cascade.</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Geographic Impact -->
+                <div class="implication-major">
+                    <h4>Where the Stakes Are Highest</h4>
+                    <p class="implication-description">Counties with largest BIPOC populations face the most urgent need for intervention—and the greatest opportunity for impact</p>
+                    
+                    <div class="geographic-impact">
+                        <svg viewBox="0 0 1000 400" class="major-viz">
+                            <!-- County comparison bars -->
+                            <text x="50" y="30" font-size="16" fill="#1a3a52" font-weight="bold">Affected Population by County</text>
+                            
+                            <!-- Chittenden -->
+                            <text x="50" y="80" font-size="14" fill="#666">Chittenden County</text>
+                            <rect x="250" y="65" width="600" height="35" fill="#1a3a52" opacity="0.9"/>
+                            <text x="860" y="87" font-size="14" fill="#1a3a52" font-weight="bold">~15,000 people</text>
+                            <text x="250" y="110" font-size="11" fill="#999">Highest concentration; housing crisis most acute</text>
+                            
+                            <!-- Washington -->
+                            <text x="50" y="155" font-size="14" fill="#666">Washington County</text>
+                            <rect x="250" y="140" width="380" height="35" fill="#1a3a52" opacity="0.8"/>
+                            <text x="640" y="162" font-size="14" fill="#1a3a52" font-weight="bold">~6,200 people</text>
+                            <text x="250" y="185" font-size="11" fill="#999">Growing diversity; rural healthcare access gaps</text>
+                            
+                            <!-- Windham -->
+                            <text x="50" y="230" font-size="14" fill="#666">Windham County</text>
+                            <rect x="250" y="215" width="350" height="35" fill="#2a5a7a" opacity="0.8"/>
+                            <text x="610" y="237" font-size="14" fill="#1a3a52" font-weight="bold">~5,800 people</text>
+                            <text x="250" y="260" font-size="11" fill="#999">Educational opportunity gaps; limited services</text>
+                            
+                            <!-- Rutland -->
+                            <text x="50" y="305" font-size="14" fill="#666">Rutland County</text>
+                            <rect x="250" y="290" width="280" height="35" fill="#2a5a7a" opacity="0.7"/>
+                            <text x="540" y="312" font-size="14" fill="#1a3a52" font-weight="bold">~4,500 people</text>
+                            <text x="250" y="335" font-size="11" fill="#999">Workforce barriers; economic mobility limited</text>
+                            
+                            <!-- Combined rural -->
+                            <text x="50" y="380" font-size="14" fill="#666">Other 10 Counties Combined</text>
+                            <rect x="250" y="365" width="320" height="35" fill="#a0c4e8" opacity="0.7"/>
+                            <text x="580" y="387" font-size="14" fill="#1a3a52" font-weight="bold">~6,500 people</text>
+                            <text x="250" y="410" font-size="11" fill="#999">Dispersed population; service delivery challenges</text>
+                            
+                            <!-- Total callout -->
+                            <rect x="820" y="320" width="160" height="70" fill="#F4D35E" opacity="0.2" stroke="#F4D35E" stroke-width="2"/>
+                            <text x="900" y="345" text-anchor="middle" font-size="13" fill="#1a3a52" font-weight="bold">Total BIPOC</text>
+                            <text x="900" y="365" text-anchor="middle" font-size="13" fill="#1a3a52" font-weight="bold">Population</text>
+                            <text x="900" y="385" text-anchor="middle" font-size="20" fill="#1a3a52" font-weight="bold">~38,000</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Bottom line summary -->
+                <div class="implication-summary">
+                    <p><strong>The bottom line:</strong> Vermont's BIPOC community represents 12% of the population but faces barriers that limit their economic participation by an estimated 30-40%. This isn't just an equity issue—it's a $850M+ annual economic loss that affects all Vermonters. The choice isn't whether to invest in equity, but whether Vermont can afford not to.</p>
                 </div>
             </div>
         </section>
@@ -423,15 +747,115 @@
                     </div>
                 </div>
                 
+                <!-- Action Items Section -->
+                <div class="action-section">
+                    <h3>Take Action Now</h3>
+                    <p class="action-intro">Whether you're a community member, policymaker, nonprofit leader, or concerned citizen—you have a role to play in building an equitable Vermont. Every action counts.</p>
+                    
+                    <div class="action-grid">
+                        <!-- Action 1: Join the Network -->
+                        <div class="action-card highlight">
+                            <span class="action-label">Most Popular</span>
+                            <h4>Join VT PoC Network</h4>
+                            <p>Connect with 500+ BIPOC professionals across Vermont. Access mentorship, job opportunities, and a supportive community committed to collective success.</p>
+                            <a href="https://www.vtpoc.net/become-a-vtpoc-member/" class="action-button primary" target="_blank">Become a Member →</a>
+                            <span class="action-impact">Join 500+ members statewide</span>
+                        </div>
+                        
+                        <!-- Action 2: Share Your Story -->
+                        <div class="action-card">
+                            <span class="action-label">Community Voice</span>
+                            <h4>Share Your Experience</h4>
+                            <p>Your lived experience shapes better policy. Complete our 5-minute survey to help build data that reflects your community's priorities and needs.</p>
+                            <a href="#" class="action-button secondary" onclick="alert('Survey link: [Add survey URL here]'); return false;">Take the Survey →</a>
+                            <span class="action-impact">~5 minutes • Your voice matters</span>
+                        </div>
+                        
+                        <!-- Action 3: Support the Work -->
+                        <div class="action-card highlight">
+                            <span class="action-label">Direct Impact</span>
+                            <h4>Support BIPOC Communities</h4>
+                            <p>100% of your donation funds community programs, leadership development, and advocacy work led by and for Vermont's BIPOC communities.</p>
+                            <a href="https://www.vtpoc.net/support-vt-poc/" class="action-button primary" target="_blank">Donate Now →</a>
+                            <span class="action-impact">100% goes to community programs</span>
+                        </div>
+                        
+                        <!-- Action 4: Download Report -->
+                        <div class="action-card">
+                            <span class="action-label">For Organizations</span>
+                            <h4>Download Full Report</h4>
+                            <p>Access comprehensive data analysis, methodology documentation, and actionable recommendations for your nonprofit, business, or government agency.</p>
+                            <a href="#" class="action-button secondary" onclick="alert('PDF download will be available here'); return false;">Download PDF →</a>
+                            <span class="action-impact">Free for all organizations</span>
+                        </div>
+                        
+                        <!-- Action 5: Contact Legislators -->
+                        <div class="action-card">
+                            <span class="action-label">Policy Change</span>
+                            <h4>Contact Your Legislators</h4>
+                            <p>Tell Vermont lawmakers why equity investments matter. Use our email templates to make your voice heard in 2 minutes or less.</p>
+                            <a href="https://legislature.vermont.gov/people/all/2024" class="action-button secondary" target="_blank">Find Your Rep →</a>
+                            <span class="action-impact">~2 minutes • Templates provided</span>
+                        </div>
+                        
+                        <!-- Action 6: Explore Data Portal -->
+                        <div class="action-card">
+                            <span class="action-label">Explore More</span>
+                            <h4>Explore Interactive Data</h4>
+                            <p>Dive deeper into county-level data, filter by demographics, compare trends over time, and create custom visualizations for your work.</p>
+                            <a href="https://www.vtpoc.net" class="action-button primary" target="_blank">Visit Data Portal →</a>
+                            <span class="action-impact">Interactive visualizations available</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Newsletter Signup -->
+                <div class="newsletter-section">
+                    <h3>Stay Connected</h3>
+                    <p>Get updates on new data releases, community events, and policy developments directly to your inbox.</p>
+                    
+                    <form class="newsletter-form" onsubmit="handleNewsletterSignup(event)">
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Enter your email address" required class="newsletter-input">
+                            <button type="submit" class="newsletter-button">Subscribe</button>
+                        </div>
+                        <p class="form-note">We respect your privacy. Unsubscribe anytime. See our <a href="https://www.vtpoc.net/privacy-policy/">privacy policy</a>.</p>
+                    </form>
+                </div>
+                
+                <!-- Share This Story -->
+                <div class="share-section">
+                    <h3>Share This Story</h3>
+                    <p>Help spread awareness about Vermont's changing demographics and the importance of equity-centered data.</p>
+                    
+                    <div class="share-buttons">
+                        <button class="share-button twitter" onclick="shareOnTwitter()">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                            Share on X
+                        </button>
+                        <button class="share-button linkedin" onclick="shareOnLinkedIn()">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                            Share on LinkedIn
+                        </button>
+                        <button class="share-button facebook" onclick="shareOnFacebook()">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                            Share on Facebook
+                        </button>
+                        <button class="share-button email" onclick="shareViaEmail()">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                            Share via Email
+                        </button>
+                        <button class="share-button copy" onclick="copyLink()">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+                            Copy Link
+                        </button>
+                    </div>
+                </div>
+                
                 <div class="cta-section">
-                    <h3>Get Involved</h3>
-                    <p>This is Vermont's story—all of us are writing it. Whether you're a community member, advocate, researcher, or decision-maker:</p>
-                    <ul>
-                        <li><strong>Explore the full data portal</strong> at <a href="https://www.vtpoc.net">vtpoc.net</a></li>
-                        <li><strong>Join the conversation</strong> at community listening sessions</li>
-                        <li><strong>Share your story</strong> in our ongoing survey</li>
-                        <li><strong>Collaborate on solutions</strong> with the VT PoC Network</li>
-                    </ul>
+                    <h3>Questions or Want to Collaborate?</h3>
+                    <p>VT PoC is committed to data-informed community partnerships. Whether you're a researcher, policymaker, nonprofit, or business leader—let's work together.</p>
+                    <a href="https://www.vtpoc.net/contact-us/" class="cta-button" target="_blank">Contact VT PoC →</a>
                 </div>
             </div>
         </section>
@@ -478,6 +902,92 @@
                 </div>
             </div>
         </footer>
+    </div>
+
+    <!-- MODALS -->
+    <div id="data-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h3>About the Data</h3>
+            <p><strong>Primary Data Sources:</strong></p>
+            <ul>
+                <li><strong>VT PoC Community Survey (2024):</strong> Over 200 responses from BIPOC professionals, residents, and business owners across Vermont, capturing lived experiences, economic participation, health indicators, and community priorities.</li>
+                <li><strong>VT PoC Small Business Survey (2022):</strong> Focused data collection from BIPOC entrepreneurs identifying barriers to capital, technical assistance needs, and growth challenges.</li>
+                <li><strong>U.S. Census Bureau & American Community Survey (ACS):</strong> County-level demographic, housing, employment, and income data from 2010-2024, with 5-year estimates used for reliability.</li>
+                <li><strong>Vermont State Administrative Data:</strong> Department of Health (Adult Behavioral Risk Factor Surveillance Survey), Agency of Commerce and Community Development (tourism and relocation data), and other state datasets.</li>
+                <li><strong>Community Listening Sessions:</strong> Qualitative themes from facilitated discussions with BIPOC community members in rural and urban Vermont.</li>
+            </ul>
+            <p><strong>Data Integration Approach:</strong> This project combines community-driven primary data with authoritative public datasets to provide both statistical rigor and authentic community voice. The quantitative data establishes baseline trends, while qualitative data provides context, nuance, and priorities that numbers alone cannot capture.</p>
+        </div>
+    </div>
+
+    <div id="geographic-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h3>Geographic Focus</h3>
+            <p><strong>Vermont's 14 Counties:</strong> Addison, Bennington, Caledonia, Chittenden, Essex, Franklin, Grand Isle, Lamoille, Orange, Orleans, Rutland, Washington, Windham, and Windsor.</p>
+            <p><strong>Urban vs. Rural Distinction:</strong> Approximately 63% of Vermont's BIPOC population lives outside Chittenden County, predominantly in rural areas. This geographic distribution presents unique challenges for service delivery, community building, and data collection.</p>
+            <p><strong>Why County-Level Analysis Matters:</strong></p>
+            <ul>
+                <li><strong>Policy Alignment:</strong> Vermont's Regional Development Corporations, legislative districts, and many state programs operate at county or regional levels.</li>
+                <li><strong>Resource Distribution:</strong> Understanding where BIPOC Vermonters live helps target investments in housing, healthcare, transportation, and economic development.</li>
+                <li><strong>Rural Visibility:</strong> Statewide aggregates often mask the experiences of rural BIPOC communities. County-level data makes these populations visible to decision-makers.</li>
+                <li><strong>Comparative Context:</strong> County-level analysis allows comparison with similar rural counties nationally and regionally.</li>
+            </ul>
+            <p><strong>Methodological Note:</strong> When county-level sample sizes are too small (n<30), we aggregate to regional groupings or present statewide trends only, always noting these limitations transparently.</p>
+        </div>
+    </div>
+
+    <div id="inclusion-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h3>Who We Include</h3>
+            <p><strong>BIPOC Definition:</strong> Black, Indigenous, and People of Color—a term that centers racial equity while acknowledging diverse experiences within and across communities.</p>
+            <p><strong>Racial/Ethnic Categories Used:</strong></p>
+            <ul>
+                <li><strong>Black/African American:</strong> Includes individuals who identify as Black or African American, whether U.S.-born or immigrants from Africa, the Caribbean, or elsewhere.</li>
+                <li><strong>Indigenous/Native American:</strong> Includes members of the Abenaki Nation and other Indigenous peoples with historical and contemporary ties to Vermont and the broader Northeast.</li>
+                <li><strong>Latino/Hispanic:</strong> Individuals of Latin American descent, regardless of race, including diverse national origins (Mexican, Puerto Rican, Dominican, Central and South American, etc.).</li>
+                <li><strong>Asian/Pacific Islander:</strong> Includes East Asian, South Asian, Southeast Asian, and Pacific Islander communities (Chinese, Indian, Filipino, Vietnamese, Nepalese, Bhutanese, and others).</li>
+                <li><strong>Multiracial:</strong> Individuals who identify with two or more racial or ethnic backgrounds, reflecting Vermont's growing mixed-heritage population.</li>
+            </ul>
+            <p><strong>Why These Categories?</strong> We align with U.S. Census categories for comparability while recognizing their limitations. In qualitative work, we use self-identification and honor the specific cultural identities community members name for themselves.</p>
+            <p><strong>Important Considerations:</strong></p>
+            <ul>
+                <li>These categories are socially constructed and do not capture the full complexity of identity, nationality, or culture.</li>
+                <li>Within each category exists tremendous diversity in language, immigration status, socioeconomic background, and lived experience.</li>
+                <li>We avoid aggregating when possible, but small sample sizes sometimes require it. We always note when aggregation obscures important differences.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="limitations-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h3>A Note on Limitations</h3>
+            <p><strong>Small Sample Sizes:</strong> Vermont's BIPOC population, while growing rapidly, remains relatively small in absolute numbers. This creates statistical challenges:</p>
+            <ul>
+                <li><strong>County-Level Data:</strong> Some counties have fewer than 100 BIPOC residents in certain categories, making reliable estimates difficult.</li>
+                <li><strong>Suppression for Privacy:</strong> Following best practices, we suppress data when cell sizes are below 10 individuals to protect anonymity.</li>
+                <li><strong>Confidence Intervals:</strong> Where possible, we report margins of error and confidence intervals to indicate uncertainty in estimates.</li>
+                <li><strong>Aggregation:</strong> When sample sizes are too small for disaggregation, we combine counties into regions or present statewide totals only.</li>
+            </ul>
+            <p><strong>Data Gaps:</strong></p>
+            <ul>
+                <li><strong>Undercounting:</strong> Census data likely undercounts immigrant populations, individuals with housing instability, and those with limited English proficiency.</li>
+                <li><strong>Missing Voices:</strong> Not all BIPOC Vermonters participate in surveys or Census. Our community survey represents a self-selected sample, not a random probability sample.</li>
+                <li><strong>Timing:</strong> Some datasets lag behind current reality. We use the most recent data available, but rapid demographic change means estimates may understate current diversity.</li>
+            </ul>
+            <p><strong>Methodological Transparency:</strong> We commit to clearly noting:</p>
+            <ul>
+                <li>Sample sizes and response rates</li>
+                <li>Margins of error and statistical significance</li>
+                <li>When data are suppressed or aggregated</li>
+                <li>Differences between data sources and years</li>
+                <li>Limitations in generalizability</li>
+            </ul>
+            <p><strong>Qualitative Strength:</strong> Where quantitative data is limited, qualitative insights from community surveys and listening sessions provide critical context and lived experience that numbers alone cannot capture.</p>
+        </div>
     </div>
 
     <script src="script.js"></script>

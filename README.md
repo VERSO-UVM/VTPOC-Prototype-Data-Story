@@ -1,18 +1,24 @@
 # VTPOC Prototype Data Story
 
-A static, scrollable data storytelling prototype for the Vermont Professionals of Color Network (VTPOC), demonstrating how complex equity data can be communicated through an engaging single-page narrative structure.
+A static, scrollable data storytelling prototype for the Vermont Professionals of Color Network (VTPOC), demonstrating how Vermont's demographic shifts over the past two decades—from 3% to 10.9% BIPOC population—require equity-centered investment and responsive policy.
 
-## Overview
+## Project Context
+
+Vermont's BIPOC population has grown from 3% in 2000 to 10.9% today, yet systemic barriers persist across housing, employment, healthcare, and community representation. This prototype presents a comprehensive data narrative to support VTPOC's advocacy for equity-centered policy and resource allocation.
+
+Built in partnership with UVM's VERSO program, this interactive data story transforms complex demographic and socioeconomic data into an accessible, engaging narrative that connects data insights to actionable recommendations for policymakers, nonprofit leaders, and community members.
+
+## The Story Framework
 
 This prototype implements a **7-section data story framework** designed to guide audiences through data exploration with both analytical rigor and human context:
 
-1. **Hook** — Why this story matters (emotional entry point)
-2. **Question** — What we're trying to solve (problem statement)
-3. **Context** — Background needed to understand the data (data source overview)
-4. **Exploration** — What we examined (methodology)
-5. **Insight** — What we discovered (findings)
-6. **Implication** — Why the discovery matters (significance)
-7. **Recommendation** — What we should do next (action items)
+1. **Hook** — Why this story matters (emotional entry point with personal narratives)
+2. **Question** — What we're trying to solve (policy proposal context: how do Vermont's changing demographics reshape needs?)
+3. **Context** — Background needed to understand the data (data sources, methodology, definitions, and limitations with "Learn More" modals)
+4. **Exploration** — What we examined (6 equity domains with custom data visualizations: population/geography, housing, employment, business ownership, health, and community voice)
+5. **Insight** — What we discovered (key findings from the data with statistical highlights)
+6. **Implication** — Why the discovery matters (2035 scenarios showing stakes, systems connections, and geographic impact)
+7. **Recommendation** — What we should do next (4-phase roadmap with immediate action items: join network, share stories, donate, advocate)
 
 ## Project Structure
 
@@ -60,18 +66,41 @@ VTPOC-Prototype-Data-Story/
 - **Vanilla JavaScript**: No dependencies; lightweight interactivity
 - **Responsive Design**: Mobile-first approach with media queries
 
-## How to Use
+## Quick Start
 
-### Local Development
-1. Clone or download this repository
-2. Open `index.html` in your web browser
-3. Scroll through the story or use arrow keys to navigate
-4. Interact with elements (hover over cards, click links)
+### Running Locally
 
-### Deployment
-1. Copy all three files (`index.html`, `styles.css`, `script.js`) to your web server
-2. Ensure all files are in the same directory
-3. Serve over HTTPS for optimal security
+**Option 1: Python HTTP Server (Recommended)**
+```bash
+# Navigate to project directory
+cd path/to/VTPOC-Prototype-Data-Story
+
+# Start Python 3 server
+python -m http.server 8000
+
+# Open in browser
+# Visit: http://localhost:8000
+```
+
+**Option 2: Direct File Open**
+```bash
+# Simply open the file in your browser
+# Note: Some features (like certain modern JavaScript APIs) may require a server
+open index.html  # macOS
+start index.html  # Windows
+xdg-open index.html  # Linux
+```
+
+**Option 3: VS Code Live Server Extension**
+1. Install "Live Server" extension in VS Code
+2. Right-click `index.html`
+3. Select "Open with Live Server"
+
+### Deployment to Production
+1. Copy all files (`index.html`, `styles.css`, `script.js`, and `img/` folder) to your web server
+2. Ensure all files maintain their relative paths
+3. Serve over HTTPS for optimal security and modern browser features
+4. Update all placeholder URLs (newsletter signup, survey links, PDF downloads) with production endpoints
 
 ### Customization
 

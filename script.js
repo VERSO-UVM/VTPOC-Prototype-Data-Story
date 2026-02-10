@@ -412,3 +412,57 @@ window.addEventListener('scroll', debounce(function() {
         }
     }
 }, 1000));
+// ============================================================================
+// MODAL FUNCTIONALITY
+// ============================================================================
+
+// Get all learn more links
+const learnMoreLinks = document.querySelectorAll('.learn-more-link');
+
+// Add click handlers to open modals
+learnMoreLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const modalId = this.getAttribute('data-modal');
+        const modal = document.getElementById(modalId);
+        if (modal) {
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden'; // Prevent background scrolling
+        }
+    });
+});
+
+// Get all close buttons
+const closeButtons = document.querySelectorAll('.modal-close');
+
+// Add click handlers to close modals
+closeButtons.forEach(button => {
+    button.addEventListener('click', function() {
+        const modal = this.closest('.modal');
+        if (modal) {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto'; // Re-enable scrolling
+        }
+    });
+});
+
+// Close modal when clicking outside of modal content
+window.addEventListener('click', function(e) {
+    if (e.target.classList.contains('modal')) {
+        e.target.style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }
+});
+
+// Close modal with Escape key
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        const modals = document.querySelectorAll('.modal');
+        modals.forEach(modal => {
+            if (modal.style.display === 'block') {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+        });
+    }
+});
