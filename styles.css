@@ -170,6 +170,20 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Footnote Links */
+.footnote-link {
+    font-size: 0.8rem;
+    color: #F4D35E;
+    text-decoration: none;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.footnote-link:hover {
+    color: #1a3a52;
+    text-decoration: underline;
+}
+
 /* Scroll Container */
 .scroll-container {
     width: 100%;
