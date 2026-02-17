@@ -4,7 +4,7 @@ A static, scrollable data storytelling prototype for the Vermont Professionals o
 
 ## Project Context
 
-Vermont's BIPOC population has grown 145% since 2010, yet policy, investment, and data systems have not kept pace with this demographic reality. This prototype reframes Vermont's demographic change as an economic infrastructure problem—not a social equity issue alone—and presents fiscal evidence for strategic action.
+Vermont's BIPOC population has grown 82.7% since 2010 (from 4.7% to 8.59% of total population), yet policy, investment, and data systems have not kept pace with this demographic reality. This prototype reframes Vermont's demographic change as an economic infrastructure problem—not a social equity issue alone—and presents fiscal evidence for strategic action.
 
 Built in partnership with UVM's VERSO program, this interactive data story transforms complex demographic and economic data into a compelling narrative that connects data insights to concrete fiscal returns and policy recommendations for state decision-makers, institutional leaders, and investors.
 
