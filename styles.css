@@ -1676,6 +1676,50 @@ a:hover {
     filter: brightness(1.2);
 }
 
+/* SVG Data Visualizations */
+svg.growth-trend-chart,
+svg.gap-infographic,
+svg.impact-viz,
+svg.scenario-comparison {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.growth-viz-container,
+.visibility-gap-viz,
+.scenario-overview {
+    margin: 40px 0;
+    padding: 20px;
+    background: linear-gradient(135deg, rgba(26, 58, 82, 0.03) 0%, rgba(244, 211, 94, 0.03) 100%);
+    border-radius: 12px;
+    border-left: 4px solid #F4D35E;
+}
+
+/* Responsive SVG scaling */
+@media (max-width: 768px) {
+    svg.growth-trend-chart,
+    svg.gap-infographic,
+    svg.impact-viz,
+    svg.scenario-comparison {
+        padding: 5px;
+        font-size: 0.9rem;
+    }
+    
+    .growth-viz-container,
+    .visibility-gap-viz,
+    .scenario-overview {
+        margin: 20px 0;
+        padding: 15px;
+    }
+}
+
 /* Accessibility */
 @media (prefers-reduced-motion: reduce) {
     * {
