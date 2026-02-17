@@ -226,6 +226,7 @@ a:hover {
     margin-bottom: 3rem;
     opacity: 0.9;
     line-height: 1.6;
+    color: #F4D35E;
 }
 
 .hook-visual {
@@ -356,21 +357,6 @@ a:hover {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-size: 1.3rem;
-}
-
-.question-list {
-    margin: 1.5rem 0;
-}
-
-.question-list li {
-    margin-bottom: 1.5rem;
-    line-height: 1.7;
-}
-
-.question-list li strong {
-    color: #1a3a52;
-    display: block;
-    margin-bottom: 0.3rem;
 }
 
 /* Context Section */
@@ -534,7 +520,17 @@ a:hover {
 }
 
 .exploration-card {
-    background: transparent;\n    padding: 2rem 0;\n    border-top: 1px solid #e5e5e5;\n    border-radius: 0;\n    border: none;\n    border-top: 1px solid #e5e5e5;\n    transition: all 0.3s ease;\n}\n\n.exploration-card:hover {\n    background: transparent;\n    border-color: #1a3a52;\n}
+    background: transparent;
+    padding: 2rem 0;
+    border-top: 1px solid #e5e5e5;
+    border-radius: 0;
+    transition: all 0.3s ease;
+}
+
+.exploration-card:hover {
+    background: transparent;
+    border-color: #1a3a52;
+}
 
 .exploration-card h4 {
     color: #1a3a52;
@@ -605,7 +601,6 @@ a:hover {
     max-height: 400px;
 }
 
-/* Insight Section */
 /* Insight Section */
 .insight-section {
     background: white;
@@ -885,6 +880,10 @@ a:hover {
     font-size: 1.15rem;
     line-height: 1.8;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.implication-summary p {
+    color: white;
 }
 
 .implication-summary strong {
@@ -1675,13 +1674,6 @@ a:hover {
 .major-viz circle:hover,
 .exploration-viz rect:hover {
     filter: brightness(1.2);
-}
-
-/* CTA Section */
-.cta-section {
-    margin-top: 4rem;
-    padding: 2rem 0;
-    text-align: center;
 }
 
 /* Accessibility */
