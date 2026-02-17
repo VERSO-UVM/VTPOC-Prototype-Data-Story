@@ -1,24 +1,23 @@
 # VTPOC Prototype Data Story
 
-A static, scrollable data storytelling prototype for the Vermont Professionals of Color Network (VTPOC), demonstrating how Vermont's demographic shifts over the past two decades—from 3% to 10.9% BIPOC population—require equity-centered investment and responsive policy.
+A static, scrollable data storytelling prototype for the Vermont Professionals of Color Network (VTPOC), demonstrating Vermont's demographic shifts as an economic infrastructure challenge requiring fiscal strategy and institutional alignment.
 
 ## Project Context
 
-Vermont's BIPOC population has grown from 3% in 2000 to 10.9% today, yet systemic barriers persist across housing, employment, healthcare, and community representation. This prototype presents a comprehensive data narrative to support VTPOC's advocacy for equity-centered policy and resource allocation.
+Vermont's BIPOC population has grown 145% since 2010, yet policy, investment, and data systems have not kept pace with this demographic reality. This prototype reframes Vermont's demographic change as an economic infrastructure problem—not a social equity issue alone—and presents fiscal evidence for strategic action.
 
-Built in partnership with UVM's VERSO program, this interactive data story transforms complex demographic and socioeconomic data into an accessible, engaging narrative that connects data insights to actionable recommendations for policymakers, nonprofit leaders, and community members.
+Built in partnership with UVM's VERSO program, this interactive data story transforms complex demographic and economic data into a compelling narrative that connects data insights to concrete fiscal returns and policy recommendations for state decision-makers, institutional leaders, and investors.
 
 ## The Story Framework
 
-This prototype implements a **7-section data story framework** designed to guide audiences through data exploration with both analytical rigor and human context:
+This prototype implements a **6-section data story framework** designed to guide fiscal decision-makers through evidence-based reasoning toward institutional action:
 
-1. **Hook** — Why this story matters (emotional entry point with personal narratives)
-2. **Question** — What we're trying to solve (policy proposal context: how do Vermont's changing demographics reshape needs?)
-3. **Context** — Background needed to understand the data (data sources, methodology, definitions, and limitations with "Learn More" modals)
-4. **Exploration** — What we examined (6 equity domains with custom data visualizations: population/geography, housing, employment, business ownership, health, and community voice)
-5. **Insight** — What we discovered (key findings from the data with statistical highlights)
-6. **Implication** — Why the discovery matters (2035 scenarios showing stakes, systems connections, and geographic impact)
-7. **Recommendation** — What we should do next (4-phase roadmap with immediate action items: join network, share stories, donate, advocate)
+1. **Hook** — "The Whitest State Is Changing" (establishes urgency: demographic growth creates both opportunity and risk)
+2. **Growth** — Why demographic change is economic infrastructure (labor force participation, business ownership, household formation, school enrollment)
+3. **Visibility Gap** — Where policy-relevant data breaks down (4 infrastructure problems: suppression, aggregation, rural invisibility, inconsistent reporting)
+4. **Friction** — Where economic drag emerges (4 barriers framed as fiscal problems: housing wealth gaps, wage disparities, capital constraints, out-migration)
+5. **Economic Scenario** — Modeled fiscal returns from closing gaps (3 scenarios with 5-year projections: homeownership ROI +$42M tax revenue, wage gap closure +$96M annual wages, business scale-up +$385M economic activity)
+6. **Policy Imperative** — Institutional levers that drive outcomes (4 policy recommendations for state decision-makers: data infrastructure, housing/capital strategies, standardized reporting, workforce modernization)
 
 ## Project Structure
 
@@ -106,16 +105,20 @@ xdg-open index.html  # Linux
 
 #### Updating Story Content
 Edit the relevant sections in `index.html`:
-- Modify text, statistics, and section titles
-- Update chart SVGs or replace with dynamic visualizations
-- Add or remove sections as needed
+- Modify economic impacts, projections, and policy recommendations
+- Update any fiscal estimates or modeled returns
+- Add or remove policy levers as needed
+- Adjust target audience messaging (fiscal decision-makers vs. community members)
 
 #### Styling Changes
-Customize colors and layout in `styles.css`:
+Customize colors and layout in `styles.css`. Current color scheme:
 ```css
-/* Update brand colors */
---primary-color: #2c5f8d;
---dark-color: #1a3a52;
+/* Brand colors */
+--primary-dark: #1a3a52;        /* Dark navy */
+--accent-yellow: #F4D35E;       /* Bright yellow */
+--accent-red: #c64226;          /* Accent red */
+--text-light: #444;             /* Default text */
+--text-white: #ffffff;          /* Headers and emphasis */
 ```
 
 #### Adding Interactivity
@@ -181,13 +184,15 @@ Tested and supported on:
 - ✅ Motion effects can be disabled
 - ✅ Form labels and error messaging
 
-## Data Privacy & Ethics
+## Data & Methodology
 
-This prototype includes:
-- **No user tracking** by default (analytics hooks available but disabled)
-- **No external resource requests** unless intentionally added
-- **Privacy-first design** for sensitive data visualization
-- **Ethical defaults** with content warnings and data limitation notes
+This prototype foundation includes:
+- **Primary data**: VT PoC Community Survey (200+ responses from BIPOC professionals and residents)
+- **Public datasets**: U.S. Census Bureau, American Community Survey (ACS) 2010-2024
+- **State administrative data**: Vermont Department of Health, Agency of Commerce and Community Development
+- **Community qualitative**: Listening sessions with rural and urban BIPOC Vermonters
+- **Methodological transparency**: Data suppression rules, confidence intervals, and limitations documented in modals
+- **Privacy-first design**: No external tracking, no personal data collection, aggregated reporting only
 
 ## Development Guidelines
 
@@ -230,6 +235,15 @@ This prototype is created for the Vermont Professionals of Color Network (VTPOC)
 
 ## Changelog
 
+### v2.0.0 (2026-02-17)
+- **Narrative framework restructure**: Shifted from equity/social lens to economic/fiscal strategy lens
+- **Section renaming**: Question→Growth, Exploration→Visibility Gap, Insight→Friction, Implication→Economic Scenario, Recommendation→Policy Imperative
+- **Strategic focus**: Reframed demographic change as economic infrastructure problem requiring fiscal strategy
+- **Target audience**: Policymakers and institutional decision-makers (expanded from general public)
+- **Messaging pivot**: Economic competitiveness and fiscal returns (vs. social equity narrative)
+- **New economic scenarios**: Added 3 modeled fiscal impact scenarios with specific 5-year projections
+- **Policy recommendations**: Institutional policy levers (vs. community action cards)
+
 ### v1.0.0 (2026-02-10)
 - Initial prototype release
 - Core story structure implemented
@@ -239,4 +253,4 @@ This prototype is created for the Vermont Professionals of Color Network (VTPOC)
 
 ---
 
-**Built with care for equitable storytelling.** ✊
+**Built with evidence for economic strategy.** 📊
